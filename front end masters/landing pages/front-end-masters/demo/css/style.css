@@ -1,0 +1,88 @@
+/* a stylesheet */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  display: flex;
+  max-width: 80em;
+  margin: auto;
+}
+
+img {
+  z-index: -99;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  list-style: decimal inside;
+  margin: 0;
+  padding: 0;
+  background-color: hsla(0, 0%, 99%, 0.705);
+}
+
+/* Styles for the main list items */
+ol > li {
+  display: list-item;
+  margin-right: 1em;
+}
+
+/* Styles for the nested list */
+ol ol {
+  list-style-type: lower-alpha;
+  padding-left: 20px;
+}
+
+/* Styles for the nested list items */
+ol ol > li {
+  display: list-item;
+  margin-right: 0;
+}
+
+/* Investigate drop-shadows, blur, etc. on contrast and readability. Stay in scope! The next lessons is <ol> with PB&J. */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* Particle container. */
+#particle-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -75;
+}
+
+code {
+  font-weight: 700;
+}
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: inline-end;
+  box-shadow: inset 5px 0 -5px 5px #29627e;
+  font-style: italic;
+  color: #29627e;
+  position: relative;
+  z-index: 1;
+}
+
+aside > p {
+  margin: 0.5rem;
+}
+
+.layer {
+  z-index: -100;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
