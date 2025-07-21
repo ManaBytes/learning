@@ -1,0 +1,91 @@
+* {
+  /* display: flex;
+  flex: 1 1 0; */
+  display: inline-block;
+}
+
+div {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  font-style: inherit;
+  border-radius: 5px;
+  outline: 10px inset rgba(0, 100, 0, 0.5);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsla(0, 0%, 71%, 0.075);
+  max-width: 80ch;
+  overflow: auto;
+  text-overflow: ellipsis;
+  margin: 1em auto;
+}
+
+img {
+  outline: 10px dotted rgba(255, 0, 0, 0.5);
+}
+
+h1 {
+  border: 5px solid rgba(76, 173, 76, 0.849);
+}
+
+blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+cite {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bigbold {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  /* display: flex;
+    flex: 1 1 auto;
+    max-width: max-content; */
+  background-color: hsla(0, 0%, 0%, 0.116);
+
+  padding: 1em;
+  margin: 1em;
+}
+
+em {
+  color: rgb(192, 45, 40);
+  font-weight: 800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: flex;
+  flex: 1 1 0;
+  outline: 10px dotted rgba(0, 255, 0, 0.445);
+}
+
+b {
+  color: rgb(55, 20, 15);
+  font-weight: 700;
+}
+
+/* Incase cascading changes need revert .container {
+  display: flex;
+  flex: 1 1 auto;
+  outline: 10px inset rgba(0, 100, 0, 0.5);
+} */
