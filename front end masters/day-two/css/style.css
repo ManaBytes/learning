@@ -15,7 +15,6 @@ div {
   justify-content: center;
   position: relative;
   text-align: center;
-  color: white;
   font-size: medium;
   font-weight: bold;
   font-style: inherit;
@@ -23,21 +22,28 @@ div {
   outline: 10px inset rgba(0, 100, 0, 0.5);
 }
 
+p {
+  color: #020024;
+  padding: 1em;
+  margin: 1em;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: hsla(0, 0%, 71%, 0.075);
   max-width: 80ch;
   overflow: auto;
   text-overflow: ellipsis;
   margin: 1em auto;
+  background: #bac6ff;
 }
 
 img {
-  outline: 10px dotted rgba(255, 0, 0, 0.5);
+  outline: 10px dotted #2f60d9;
 }
 
 h1 {
-  border: 5px solid rgba(76, 173, 76, 0.849);
+  border: 5px solid #333b4e8c;
+  color: #45baf0;
 }
 
 blockquote {
@@ -57,18 +63,8 @@ cite {
   font-size: 1.5rem;
 }
 
-p {
-  /* display: flex;
-    flex: 1 1 auto;
-    max-width: max-content; */
-  background-color: hsla(0, 0%, 0%, 0.116);
-
-  padding: 1em;
-  margin: 1em;
-}
-
 em {
-  color: rgb(192, 45, 40);
+  color: rgb(73, 30, 28);
   font-weight: 800;
 }
 
@@ -80,11 +76,11 @@ h5,
 h6 {
   display: flex;
   flex: 1 1 0;
-  outline: 10px dotted rgba(0, 255, 0, 0.445);
+  outline: 10px dotted #234087;
 }
 
 b {
-  color: rgb(55, 20, 15);
+  color: rgb(56, 38, 36);
   font-weight: 700;
 }
 
